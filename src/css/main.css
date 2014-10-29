@@ -89,6 +89,88 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#wrapper{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 30px;
+  line-height: 43px;
+}
+
+h1 {
+  font-size: 220%;
+} 
+
+#logo{
+  background-color: blue;
+  height: 85px;
+  width: 85px;
+}
+
+#menu{
+  height: 56px;
+  line-height: 56px;
+  background-color: red;
+}
+
+#menu ul, li{
+  margin: 0px; 
+}
+#menu li{
+  display: inline;
+}
+
+#menu a {
+  text-decoration: none;
+}
+
+#menu a:hover{
+  background-color: green;
+}
+
+#content{
+  background-color: white;
+  width: 898px;
+  padding-left: 31px;
+  padding-right: 31px;
+  float: left;
+  text-align: justify;
+}
+
+#article_heading {
+  height: 86px;
+  line-height: 86px;
+}
+
+#article_heading h1 {
+  margin: 0px;
+}
+
+#article_photo img{
+  height: 338px;
+  width: 338px;
+  float: right;
+  padding: 19px;
+  margin: 10px;
+}
+
+p.first {
+  margin: 0px;
+}
+
+
+#footer{
+ clear: both;
+}
+
+
+
+
+
+		    
+
+
+
 
 
 
