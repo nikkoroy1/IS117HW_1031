@@ -99,10 +99,17 @@ textarea {
 
 h1 {
   font-size: 220%;
-} 
+}
+
+h2 {
+  font-size: 200%;
+}
+
+#branding {
+  background-color: black;
+}
 
 #logo{
-  background-color: blue;
   height: 85px;
   width: 85px;
 }
@@ -110,12 +117,21 @@ h1 {
 #menu{
   height: 56px;
   line-height: 56px;
-  background-color: red;
+  background-color: black;
+}
+
+#menu a:hover {
+  background-color: yellow;
 }
 
 #menu ul, li{
   margin: 0px; 
 }
+
+#menu ul li a {
+  color: blue;
+}
+
 #menu li{
   display: inline;
 }
@@ -124,34 +140,47 @@ h1 {
   text-decoration: none;
 }
 
-#menu a:hover{
-  background-color: green;
-}
-
-#content{
-  background-color: white;
-  width: 898px;
-  padding-left: 31px;
-  padding-right: 31px;
+#main_content{
+  width: 545px;
+  line-height: 41px;
+  height: 593px;
+  padding-left: 24px;
+  padding-right: 24px;
   float: left;
-  text-align: justify;
+  color: yellow;
+  background-color: black;
+  border: 1px solid yellow;
 }
 
-#article_heading {
+#main_heading {
   height: 86px;
   line-height: 86px;
 }
 
-#article_heading h1 {
+#main_heading h1 {
   margin: 0px;
 }
 
-#article_photo img{
-  height: 338px;
-  width: 338px;
+#side_content {
   float: right;
-  padding: 19px;
-  margin: 10px;
+  width: 325px;
+  font-size: 18px;
+  line-height: 26px;
+  height: 593px;
+  padding-left: 19px;
+  padding-right: 19px;
+  color: yellow;
+  background-color: black;
+  border: 1px solid yellow;
+}
+
+#side_heading {
+  line-height: 52px;
+  height: 52px;
+}
+
+#side_heading h2 {
+  margin: 0px;
 }
 
 p.first {
@@ -161,6 +190,8 @@ p.first {
 
 #footer{
  clear: both;
+ color: blue;
+ background-color: black;
 }
 
 
