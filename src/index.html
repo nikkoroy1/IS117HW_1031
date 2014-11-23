@@ -21,7 +21,8 @@
         <!-- Add your site or application content here -->
        
         <div id="wrapper">
-	  <div id="branding"><img id="logo" src="img/pacman.jpg" alt="Some logo"></div>
+	  <div id="branding"><img id="logo" src="img/pacman.jpg" alt="Some
+	  logo"><span id="click">Click Pacman!</span></div>
 	  <div id="menu">
 	    <ul>
 	    	<li><a href="#">About</a></li>
@@ -53,6 +54,41 @@
 		</p>
 	     </div>
 	   </div>
+	   
+	   <form action="" method="post" id="register-form"
+	   novalidate="novalidate">
+	   
+	   <h2>User Registration</h2>
+	   
+	   <div id="form=content">
+	     <fieldset>
+	       <div class="fieldgroup">
+	         <label for="firstname">First Name</label>
+		 <input type="text" name="firstname" />
+	       </div>
+	       <div class="fieldgroup">
+	         <label for="lastname">Last Name</label>
+		 <input type="text" name="lastname" />
+               </div>
+	       <div class="fieldgroup">
+	         <label for="email">Email</label>
+		 <input type="text" name="email" />
+	       </div>
+	       <div class="fieldgroup">
+	         <label for="password">Password</label>
+		 <input type="password" name="password" />
+	       </div>
+	       <div class="fieldgroup">
+	         <p class="right">By clicking register you agree to our <a
+		 target="_blank" href="/policy">policy</a>.</p>
+		 <input type="submit" value="Register" class="submit" />
+	       </div>
+	     </fieldset>  
+	   </div>
+	   <div class="fieldgroup">
+	     <p>Already registered? <a href="/login">Sign in</a>.</p>
+	   </div>
+	   </form>
 	  <div id="footer">Footer</div>
 	</div> 
        
@@ -60,7 +96,7 @@
 	<script src="js/jquery-2.1.1.min.js"></script> 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/validation.js"></script>
+        <script src="js/jquery.validate.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
